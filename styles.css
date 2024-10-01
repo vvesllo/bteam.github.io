@@ -4,6 +4,8 @@
 
 header {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 2em;
     align-items: center;
 }
@@ -59,8 +61,10 @@ code {
 }
 
 #members-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%; 
 }
 
 .members-profile-pic {
@@ -72,12 +76,15 @@ code {
 .members-profile {
     gap: 2em;
     display: flex;
+    flex: 1 1 auto;
 }
 
 
 #projects-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%; 
 }
 
 .projects-preview-pic {
@@ -89,5 +96,6 @@ code {
 .projects-card {
     gap: 2em;
     display: flex;
+    flex: 1 1 auto;
 }
 
