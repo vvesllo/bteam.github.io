@@ -1,0 +1,93 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+a {
+    color: black;
+}
+
+hr {
+    color: black;
+    border-style: solid;
+    border-radius: 1em;
+}
+
+code {
+    padding: 1em 2em;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.code-line {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    padding: 1em 2em;
+    border-radius: 1em;
+    background-color: #fff;
+    border-width:  0.1em;
+    border-color: black;
+    border-style: solid;
+    margin: 1em;
+}
+
+#minilogo {
+    height: 3em;
+    image-rendering: crisp-edges;
+    border-radius: 0.5em;
+}
+
+#index-slider {
+    height: 50vh;
+    display: flex;
+    align-items: end;
+}
+
+#index-content {
+    display: flex;
+    align-items: start;
+}
+
+#members-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.members-profile-pic {
+    height: 3em;
+    image-rendering: crisp-edges;
+    border-radius: 0.5em;
+}
+
+.members-profile {
+    gap: 2em;
+    display: flex;
+}
+
+
+#projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.projects-preview-pic {
+    height: 3em;
+    image-rendering: crisp-edges;
+    border-radius: 0.5em;
+}
+
+.projects-card {
+    gap: 2em;
+    display: flex;
+}
+
