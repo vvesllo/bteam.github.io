@@ -6,8 +6,15 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2em;
     align-items: center;
+}
+
+#header-urls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
 }
 
 a {
@@ -45,8 +52,9 @@ code {
 
 #minilogo {
     height: 3em;
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
     border-radius: 0.5em;
+    margin-right: 2em;
 }
 
 #index-slider {
@@ -57,6 +65,7 @@ code {
 
 #index-content {
     display: flex;
+    flex: 1 1 auto;
     align-items: start;
 }
 
@@ -69,7 +78,7 @@ code {
 
 .members-profile-pic {
     height: 3em;
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
     border-radius: 0.5em;
 }
 
@@ -89,7 +98,7 @@ code {
 
 .projects-preview-pic {
     height: 3em;
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
     border-radius: 0.5em;
 }
 

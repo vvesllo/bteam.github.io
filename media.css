@@ -1,0 +1,15 @@
+@media (max-width: 430px) {
+    header {
+        display: block;
+        gap: 0;
+        text-align: center;
+    }
+    
+    header #header-urls {
+        align-items: center;
+    }
+
+    #minilogo {
+        margin-right: 0;
+    }
+}
